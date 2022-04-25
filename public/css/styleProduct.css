@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.img-product {
+  width: 100%;
+  height: 220px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .img-product {
+    width: 100%;
+    height: 220px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-product {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img-product {
+    width: 100%;
+    height: 200px;
+  }
+}
+.categories-product-now-2 > a {
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  color: #3931af;
+}
+
+.categories-product-now-2 > a.active {
+  background-color: #3931af;
+  color: white;
+}
+
+.categories-product-now-2 > a:hover {
+  background-color: rgba(64, 4, 133, 0.7);
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+  .text-product-2 {
+    font-size: 0.8em !important;
+  }
+
+  .title-product-2 {
+    font-size: 0.9em !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .delete-all-padding-section {
+    padding: 0px 20px 0px 0px !important;
+  }
+
+  .delete-all-padding {
+    padding: 0px 0px 0px 0px !important;
+  }
+}
